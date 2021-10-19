@@ -41,6 +41,7 @@ input {
   border-radius: 6px;
   margin-bottom: 15px;
   margin-right: 15px;
+  padding: 16px 25px;
 }
 
 .card p {
@@ -48,7 +49,15 @@ input {
   text-align: center;
 }
 
-.card img {
-  max-height: 250px;
-  padding: 30px 40px;
+/* .card img {
+  max-height: 400px;
+  padding: 30px 50px;
+} */
+
+@media screen and (min-width: 900px) {
+  .card img {
+    max-height: 400px;
+    /* padding: 30px 50px; */
+  }
+  
 }
